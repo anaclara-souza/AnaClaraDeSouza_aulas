@@ -2,7 +2,7 @@
 # a mensagem que ele esta APROVADO se for INFERIOR a 5ele esta "Nao aprovado/reprovado direto" e se estiver entre 
 #e e 7 apareça a mensagem "nao aprovado recuperaçao"
 num = int(input("Digite sua nota: "))
-if num > 7:
+if num > 6:
    print("APROVADO")
 else:
     if num < 5 :
