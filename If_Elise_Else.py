@@ -1,6 +1,6 @@
 meta = 20000
 vendas = 25000
-
+ 
 if vendas < meta:
     print("Não ganhou bônus")
 elif vendas > (meta*2):
